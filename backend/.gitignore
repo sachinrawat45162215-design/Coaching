@@ -1,0 +1,13 @@
+# Backend dependencies
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+logs/
+*.log
+
+# Server uploads runtime storage
+uploads/*
+!uploads/.gitkeep

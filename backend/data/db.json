@@ -1,0 +1,314 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Principal Sharma",
+      "email": "admin@platform.com",
+      "password": "$2a$10$twoVXjVPFnk1wSaKcCtcWuHQxMRnGgiKaL4jB0KYAJMw9TttsD59.",
+      "role": "admin",
+      "class": "",
+      "rollNo": "",
+      "profilePhoto": "https://api.dicebear.com/7.x/adventurer/svg?seed=admin"
+    },
+    {
+      "id": "student-class5",
+      "name": "Abhi Kumar",
+      "email": "student5@platform.com",
+      "password": "$2a$10$PGhzH8Kc.T3JYsnsOhWfP.gnJTPiH5WbWfGucQDE7XjcrUXfGPgjq",
+      "role": "student",
+      "class": "Class 5",
+      "rollNo": "05",
+      "profilePhoto": "https://api.dicebear.com/7.x/adventurer/svg?seed=Abhi"
+    },
+    {
+      "id": "student-class10",
+      "name": "Neha Patel",
+      "email": "student10@platform.com",
+      "password": "$2a$10$cNl2WwKy92Vnlaz6y6DD8.zvr/Pa219gT9xD/iNMyFq/WcYuwtgSa",
+      "role": "student",
+      "class": "Class 10",
+      "rollNo": "12",
+      "profilePhoto": "https://api.dicebear.com/7.x/adventurer/svg?seed=Neha"
+    },
+    {
+      "id": "5zpy576mq",
+      "createdAt": "2026-07-18T19:03:20.796Z",
+      "name": "Sachin Rawat",
+      "email": "sachinrawat45162215@gmail.com",
+      "password": "$2a$10$qpQOEPKrZq5cdYl2TRUb..9jf/2snDL3CMCtHKjcDsr6QY4Z0phhu",
+      "role": "student",
+      "class": "Class 5",
+      "rollNo": "05",
+      "profilePhoto": "https://api.dicebear.com/7.x/adventurer/svg?seed=Sachin%20Rawat"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz-math-c5",
+      "title": "Introduction to Fractions",
+      "class": "Class 5",
+      "subject": "Math",
+      "duration": 10,
+      "createdBy": "admin-1",
+      "createdAt": "2026-07-17T19:07:04.071Z",
+      "questions": [
+        {
+          "id": "q1",
+          "questionText": "What is 1/2 + 1/4?",
+          "options": [
+            "1/6",
+            "3/4",
+            "2/6",
+            "1/8"
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "type": "single"
+        },
+        {
+          "id": "q2",
+          "questionText": "Which fraction is equivalent to 2/3?",
+          "options": [
+            "4/6",
+            "3/2",
+            "2/5",
+            "4/9"
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "type": "single"
+        },
+        {
+          "id": "q3",
+          "questionText": "Which of the following are proper fractions? (Select all that apply)",
+          "options": [
+            "3/4",
+            "5/4",
+            "1/2",
+            "7/6"
+          ],
+          "correctAnswers": [
+            0,
+            2
+          ],
+          "type": "multiple"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sci-c10",
+      "title": "Chemical Reactions and Equations",
+      "class": "Class 10",
+      "subject": "Science",
+      "duration": 15,
+      "createdBy": "admin-1",
+      "createdAt": "2026-07-17T19:07:04.071Z",
+      "questions": [
+        {
+          "id": "q10_1",
+          "questionText": "What happens when magnesium ribbon is burnt in air?",
+          "options": [
+            "It turns into magnesium oxide, a white powder",
+            "It melts into liquid magnesium",
+            "It turns into magnesium chloride",
+            "Nothing happens"
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "type": "single"
+        },
+        {
+          "id": "q10_2",
+          "questionText": "Which of the following are examples of double displacement reactions? (Select all that apply)",
+          "options": [
+            "Reaction of sodium sulfate and barium chloride",
+            "Burning of coal",
+            "Reaction of iron nail with copper sulfate",
+            "Reaction of lead nitrate and potassium iodide"
+          ],
+          "correctAnswers": [
+            0,
+            3
+          ],
+          "type": "multiple"
+        }
+      ]
+    },
+    {
+      "id": "qh9et1ozq",
+      "createdAt": "2026-07-17T19:28:08.532Z",
+      "title": "Introduction to Fractions",
+      "class": "Class 5",
+      "subject": "Math",
+      "duration": 151515,
+      "questions": [
+        {
+          "id": "q-1784316488531-0",
+          "questionText": "What is 1/2 + 1/4?",
+          "options": [
+            "1/6",
+            "3/4",
+            "2/6",
+            "1/8"
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "type": "single"
+        },
+        {
+          "id": "q-1784316488532-1",
+          "questionText": "Which fraction is equivalent to 2/3?",
+          "options": [
+            "4/6",
+            "3/2",
+            "2/5",
+            "4/9"
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "type": "single"
+        },
+        {
+          "id": "q-1784316488532-2",
+          "questionText": "Which of the following are proper fractions? (Select all that apply)",
+          "options": [
+            "3/4",
+            "5/4",
+            "1/2",
+            "7/6"
+          ],
+          "correctAnswers": [
+            0,
+            2
+          ],
+          "type": "multiple"
+        }
+      ],
+      "createdBy": "admin-1"
+    }
+  ],
+  "questionPapers": [
+    {
+      "id": "paper-math-c5",
+      "title": "Class 5 Mid-Term Mathematics Exam",
+      "class": "Class 5",
+      "subject": "Math",
+      "fileUrl": "/uploads/papers/class5_math_midterm.pdf",
+      "fileName": "class5_math_midterm.pdf",
+      "dueDate": "2026-07-24",
+      "submissions": [
+        {
+          "id": "sub-1",
+          "studentId": "student-class5",
+          "studentName": "Abhi Kumar",
+          "submittedAt": "2026-07-15T19:07:04.071Z",
+          "answerText": "Here are my final exam answers:\nQ1: 150\nQ2: 45 degrees\nQ3: Area = 36 sq cm. Attached my solution sheet.",
+          "answerFileUrl": "/uploads/submissions/abhi_math_exam.pdf",
+          "answerFileName": "abhi_math_exam.pdf",
+          "status": "evaluated",
+          "score": 85,
+          "feedback": "Good work on questions 1 and 2. Review formatting on question 3."
+        }
+      ]
+    },
+    {
+      "id": "paper-eng-c10",
+      "title": "Class 10 English Literature Assignment",
+      "class": "Class 10",
+      "subject": "English",
+      "fileUrl": "/uploads/papers/class10_english_literature.pdf",
+      "fileName": "class10_english_literature.pdf",
+      "dueDate": "2026-07-19",
+      "submissions": []
+    },
+    {
+      "id": "xb1801bgm",
+      "createdAt": "2026-07-20T19:31:51.796Z",
+      "title": "Question paper",
+      "class": "Class 5",
+      "subject": "Math",
+      "fileUrl": "/uploads/papers/1784575911776-ABHISHEK.pdf",
+      "fileName": "ABHISHEK.pdf",
+      "dueDate": "2026-05-14",
+      "submissions": []
+    },
+    {
+      "id": "14cez7hnm",
+      "createdAt": "2026-07-20T19:34:03.991Z",
+      "title": "Math paper",
+      "class": "Class 5",
+      "subject": "Math",
+      "fileUrl": "/uploads/papers/1784576043977-ABHISHEK.pdf",
+      "fileName": "ABHISHEK.pdf",
+      "dueDate": "2026-05-02",
+      "submissions": []
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-sci-c5",
+      "title": "States of Matter & Phase Transitions",
+      "class": "Class 5",
+      "subject": "Science",
+      "fileUrl": "/uploads/notes/c5_states_of_matter.pdf",
+      "fileName": "c5_states_of_matter.pdf",
+      "uploadedBy": "admin-1",
+      "createdAt": "2026-07-17T19:07:04.071Z"
+    },
+    {
+      "id": "note-hist-c10",
+      "title": "The Rise of Nationalism in Europe",
+      "class": "Class 10",
+      "subject": "Social Studies",
+      "fileUrl": "/uploads/notes/c10_nationalism_europe.pdf",
+      "fileName": "c10_nationalism_europe.pdf",
+      "uploadedBy": "admin-1",
+      "createdAt": "2026-07-17T19:07:04.071Z"
+    }
+  ],
+  "results": [
+    {
+      "id": "res-1",
+      "studentId": "student-class5",
+      "studentName": "Abhi Kumar",
+      "studentClass": "Class 5",
+      "assessmentId": "quiz-math-c5",
+      "assessmentTitle": "Introduction to Fractions",
+      "assessmentType": "quiz",
+      "subject": "Math",
+      "score": 66.6,
+      "maxScore": 100,
+      "answers": {
+        "q1": [
+          1
+        ],
+        "q2": [
+          0
+        ],
+        "q3": [
+          0
+        ]
+      },
+      "date": "2026-07-14T19:07:04.071Z"
+    },
+    {
+      "id": "res-2",
+      "studentId": "student-class5",
+      "studentName": "Abhi Kumar",
+      "studentClass": "Class 5",
+      "assessmentId": "paper-math-c5",
+      "assessmentTitle": "Class 5 Mid-Term Mathematics Exam",
+      "assessmentType": "paper",
+      "subject": "Math",
+      "score": 85,
+      "maxScore": 100,
+      "answers": null,
+      "date": "2026-07-15T19:07:04.071Z"
+    }
+  ]
+}
